@@ -19,5 +19,5 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_API_KEY
+    secure: 049c2eee-5e08-44a3-bcff-2b2df8d62966
   app: akoylu-service
