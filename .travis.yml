@@ -7,3 +7,9 @@ jdk: oraclejdk11
 
 script:
   - ./gradlew clean build
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "f6e7028c-ecb3-4f1b-813f-72ea46024929"
+    app: akoylu-service
