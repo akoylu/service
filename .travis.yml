@@ -14,7 +14,7 @@ cache:
     - $HOME/.gradle/wrapper/
 
 script:
-  - ./gradlew build test --scan -s
+  - ./gradlew build test
 
 deploy:
   provider: heroku
